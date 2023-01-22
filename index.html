@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <title>Super Mario Bros. O Filme</title>
+</head>
+
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/video-mario.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/logo-chapeu-mario.png" alt="logo chapéu Mario">
+        </a>
+        <nav class="menu">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/titulo.png" alt="imagem do título do filme">
+            <p class="descricao">Prepare-se para a aventura mais épica de todos os tempos! O icônico Super Mario chega aos cinemas em
+                "Super Mario: O Filme". Acompanhe Mario enquanto ele enfrenta desafios nunca antes vistos, luta contra
+                inimigos poderosos e tenta salvar o Reino dos Cogumelos de Bowser. Com efeitos visuais incríveis e uma
+                trilha sonora emocionante, este é um filme que não pode ser perdido. Leve toda a família para ver "Super
+                Mario: O Filme", agora nos cinemas!
+                Além de Mario, os fãs também poderão ver outros personagens queridos do jogo, como Luigi, Princesa Peach
+                e Yoshi, em ação no grande ecrã. A história do filme é baseada nas aventuras do jogo original, mas com
+                novos elementos e surpresas. A ação é intensa e emocionante, e os efeitos especiais são incríveis. Você
+                vai se sentir como se estivesse dentro do mundo do jogo.
+
+                Além disso, a trilha sonora do filme é composta por músicas icônicas do jogo original, bem como novas
+                canções criadas especialmente para o filme. A combinação de música e ação vai deixar o público na borda
+                do seu assento.
+
+                Não perca a chance de ver "Super Mario: O Filme" nos cinemas. Reserve suas entradas agora e prepare-se
+                para uma aventura épica com Mario e seus amigos!</p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+        <img class="mario" src="./src/imagens/super-mario-chars.png" />
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encryted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
